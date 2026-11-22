@@ -1,190 +1,552 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr" data-theme="light">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yasmine Boumaiza — Graphic & UI/UX Designer</title>
-<meta name="description" content="Portfolio de Yasmine Boumaiza, graphiste et designer UI/UX basée à Tunis : identités visuelles, campagnes, interfaces.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Alexandria:wght@400;600&family=Jost:wght@400;600&family=Lalezar&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header class="top" id="top">
-  <div class="wrap bar">
-    <a href="#travaux" class="brand" aria-label="Yasmine Boumaiza">
-      <span class="mark"><b class="by">BY.</b></span>
-      <span>Yasmine Boumaiza<small>Graphic & UI/UX Designer · Tunis</small></span>
-    </a>
-    <div class="tools">
-      <div class="clock"><i></i><span id="clock">Tunis --:--</span></div>
-      <button class="lang-btn" id="langBtn" type="button" aria-label="Langue / Language"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z"/></svg><span data-l="fr">FR</span><span data-l="en">EN</span></button>
-      <button class="icon-btn" id="theme" aria-label="Theme">
-        <svg class="sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.2M12 19.8V22M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2 12h2.2M19.8 12H22M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>
-        <svg class="moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
-      </button>
-      <a class="icon-btn show-sm" href="#contact" data-scroll="contact" aria-label="Contact"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7.5 8 6 8-6"/></svg></a>
-      <a class="btn hide-sm" href="#contact" data-scroll="contact"><span data-i18n="ctaContact">Me contacter</span> <span class="arr">→</span></a>
-    </div>
-  </div>
-</header>
-
-<main id="app">
-  <div id="home">
-    <section class="wrap hero">
-      <div class="hero-txt">
-        <span class="status"><span class="dot"></span><span data-i18n="avail"><b>Disponible</b> pour de nouveaux projets</span></span>
-        <h1>
-          <span class="row"><span>Yasmine</span></span>
-          <span class="row"><span><span class="acc">Boumaiza</span></span></span>
-        </h1>
-        <p class="role">Graphic Designer <span>|</span> UI/UX Designer</p>
-        <p class="lead" data-i18n="lead">Spécialisée dans la création d'identités visuelles, de supports de communication digitaux et d'expériences d'interface. Passionnée par la conception visuelle, je combine <b>créativité, sens du détail</b> et maîtrise des outils Adobe et Figma pour développer des solutions cohérentes et adaptées aux objectifs de marque.</p>
-        <div class="contacts">
-          <a href="https://wa.me/21692755973" target="_blank" rel="noopener" class="cpill" aria-label="WhatsApp"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>+216 92 755 973</a>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yasmineboumaiza92@gmail.com" target="_blank" rel="noopener" class="cpill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 7-10 6L2 7"/></svg>yasmineboumaiza92@gmail.com</a>
-          <span class="cpill"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-i18n="city">Tunis, Tunisie</span></span>
-        </div>
-        <div class="ctas">
-          <a class="btn accent" href="#travaux" data-scroll="views"><span data-i18n="ctaWork">Voir mes projets</span> <span class="arr down">↓</span></a>
-          <button class="btn ghost" type="button" id="openCV"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg><span data-i18n="ctaCV">Consulter mon CV</span> <span class="arr">↗</span></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yasmine Boumaiza Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio de Yasmine Boumaiza, graphiste et designer UI/UX basée à Tunis : identités visuelles, campagnes, interfaces."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Alexandria:wght@400;600&family=Jost:wght@400;600&family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top" id="top">
+      <div class="wrap bar">
+        <a href="#travaux" class="brand" aria-label="Yasmine Boumaiza">
+          <span class="mark"><b class="by">BY.</b></span>
+          <span
+            >Yasmine Boumaiza<small
+              >Graphic & UI/UX Designer · Tunis</small
+            ></span
+          >
+        </a>
+        <div class="tools">
+          <div class="clock"><i></i><span id="clock">Tunis --:--</span></div>
+          <button
+            class="lang-btn"
+            id="langBtn"
+            type="button"
+            aria-label="Langue / Language"
+          >
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="9.5" />
+              <path
+                d="M2.5 12h19M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z"
+              /></svg
+            ><span data-l="fr">FR</span><span data-l="en">EN</span>
+          </button>
+          <button class="icon-btn" id="theme" aria-label="Theme">
+            <svg
+              class="sun"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="4.2" />
+              <path
+                d="M12 2v2.2M12 19.8V22M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2 12h2.2M19.8 12H22M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"
+              />
+            </svg>
+            <svg
+              class="moon"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linejoin="round"
+            >
+              <path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z" />
+            </svg>
+          </button>
+          <a
+            class="icon-btn show-sm"
+            href="#contact"
+            data-scroll="contact"
+            aria-label="Contact"
+            ><svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="5" width="18" height="14" rx="3" />
+              <path d="m4 7.5 8 6 8-6" /></svg
+          ></a>
+          <a class="btn hide-sm" href="#contact" data-scroll="contact"
+            ><span data-i18n="ctaContact">Me contacter</span>
+            <span class="arr">→</span></a
+          >
         </div>
       </div>
-      <div class="fan" id="fan"></div>
-    </section>
-    <div class="marquee" aria-hidden="true"><div class="track" id="mq"></div></div>
+    </header>
 
-    <div class="tabbar" id="tabbar">
-      <nav class="tabs" id="tabs" aria-label="Sections">
-        <span class="pill" id="pill"></span>
-        <a href="#travaux" data-tab="travaux" data-i18n="tWork">Travaux</a>
-        <a href="#explorations" data-tab="explorations" data-i18n="tExplo">Explorations</a>
-        <a href="#experience" data-tab="experience" data-i18n="tXp">Expérience</a>
-      </nav>
-    </div>
-    <div id="views">
-      <section class="view section wrap" data-view="travaux">
-        <div class="sec-head reveal">
-          <h2 data-i18n="workH">Projets <em class="it">sélectionnés</em></h2>
-          <p data-i18n="workP">UI/UX, identités, campagnes et images — conçues entre 2022 et 2026 pour des institutions, des agences et des marques tunisiennes.</p>
-        </div>
-        <div class="filters" id="filters"></div>
-        <div class="grid" id="grid"></div>
-      </section>
-
-      <section class="view section wrap" data-view="explorations"><div id="dsn" class="dsn"></div></section>
-
-      <section class="view section wrap" data-view="experience">
-        <div class="sec-head reveal">
-          <h2 data-i18n="xpH">Expérience</h2>
-          <p data-i18n="xpP">Agences, freelance et projets d'envergure — du print au digital, depuis 2022.</p>
-        </div>
-        <div class="bio reveal" style="max-width:860px;margin:0 0 56px">
-          <span class="mono" data-i18n="bioK">À propos</span>
-          <p data-i18n="bioP1">Formée à l'École supérieure des sciences et technologies du design (ESSTED) à Tunis, j'ai fait mes armes en agence avant de mener mes propres missions en freelance.</p>
-          <p data-i18n="bioP2">Depuis 2022, je dirige aussi <b style="color:var(--ink);font-weight:600">Designette</b>, mon studio de créations personnalisées print/digital.</p>
-          <a class="btn ghost" href="#explorations" style="margin-top:10px"><span data-i18n="bioGo">Découvrir Designette</span> <span class="arr">→</span></a>
-        </div>
-        <div class="xp">
-          <div>
-            <div class="xp-label mono" data-i18n="xpK">Parcours professionnel</div>
-            <div class="timeline" id="timeline"><div class="rail"><i id="railFill"></i></div></div>
+    <main id="app">
+      <div id="home">
+        <section class="wrap hero">
+          <div class="hero-txt">
+            <span class="status"
+              ><span class="dot"></span
+              ><span data-i18n="avail"
+                ><b>Disponible</b> pour de nouveaux projets</span
+              ></span
+            >
+            <h1>
+              <span class="row"><span>Yasmine</span></span>
+              <span class="row"
+                ><span><span class="acc">Boumaiza</span></span></span
+              >
+            </h1>
+            <p class="role">Graphic Designer <span>|</span> UI/UX Designer</p>
+            <p class="lead" data-i18n="lead">
+              Spécialisée dans la création d'identités visuelles, de supports de
+              communication digitaux et d'expériences d'interface. Passionnée
+              par la conception visuelle, je combine
+              <b>créativité, sens du détail</b> et maîtrise des outils Adobe et
+              Figma pour développer des solutions cohérentes et adaptées aux
+              objectifs de marque.
+            </p>
+            <div class="contacts">
+              <a
+                href="https://wa.me/21692755973"
+                target="_blank"
+                rel="noopener"
+                class="cpill"
+                aria-label="WhatsApp"
+                ><svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"
+                  /></svg
+                >+216 92 755 973</a
+              >
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=yasmineboumaiza92@gmail.com"
+                target="_blank"
+                rel="noopener"
+                class="cpill"
+                ><svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="3" />
+                  <path d="m22 7-10 6L2 7" /></svg
+                >yasmineboumaiza92@gmail.com</a
+              >
+              <span class="cpill"
+                ><svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z" />
+                  <circle cx="12" cy="10" r="2.5" /></svg
+                ><span data-i18n="city">Tunis, Tunisie</span></span
+              >
+            </div>
+            <div class="ctas">
+              <a class="btn accent" href="#travaux" data-scroll="views"
+                ><span data-i18n="ctaWork">Voir mes projets</span>
+                <span class="arr down">↓</span></a
+              >
+              <button class="btn ghost" type="button" id="openCV">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  />
+                  <path d="M14 2v6h6M8 13h8M8 17h5" /></svg
+                ><span data-i18n="ctaCV">Consulter mon CV</span>
+                <span class="arr">↗</span>
+              </button>
+            </div>
           </div>
-          <aside class="side">
-            <div class="block reveal">
-              <h5 data-i18n="eduK">Formation</h5>
-              <div class="edu"><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></span><div><b data-i18n="eduT">Master · Digital Design</b><span data-i18n="eduS">ESSTED — École supérieure des sciences et technologies du design, Tunis</span></div></div>
-            </div>
-            <div class="block reveal">
-              <h5 data-i18n="toolsK">Outils maîtrisés</h5>
-              <div class="kit" id="kit"></div>
-            </div>
-            <div class="block reveal">
-              <h5 data-i18n="langsK">Langues</h5>
-              <div class="langs" id="langs"></div>
-            </div>
-            <div class="block reveal">
-              <h5>Skills</h5>
-              <div class="skills"><span>Graphic design</span><span>UI/UX design</span><span>Branding</span><span data-i18n="skDig">Design digital</span></div>
-            </div>
-            <div class="block reveal">
-              <button class="btn ghost" type="button" data-cv><span data-i18n="cvFull">Consulter mon CV complet</span> <span class="arr">↗</span></button>
-            </div>
-          </aside>
+          <div class="fan" id="fan"></div>
+        </section>
+        <div class="marquee" aria-hidden="true">
+          <div class="track" id="mq"></div>
         </div>
-      </section>
+
+        <div class="tabbar" id="tabbar">
+          <nav class="tabs" id="tabs" aria-label="Sections">
+            <span class="pill" id="pill"></span>
+            <a href="#travaux" data-tab="travaux" data-i18n="tWork">Travaux</a>
+            <a href="#explorations" data-tab="explorations" data-i18n="tExplo"
+              >Explorations</a
+            >
+            <a href="#experience" data-tab="experience" data-i18n="tXp"
+              >Expérience</a
+            >
+          </nav>
+        </div>
+        <div id="views">
+          <section class="view section wrap" data-view="travaux">
+            <div class="sec-head reveal">
+              <h2 data-i18n="workH">
+                Projets <em class="it">sélectionnés</em>
+              </h2>
+              <p data-i18n="workP">
+                UI/UX, identités, campagnes et images — conçues entre 2022 et
+                2026 pour des institutions, des agences et des marques
+                tunisiennes.
+              </p>
+            </div>
+            <div class="filters" id="filters"></div>
+            <div class="grid" id="grid"></div>
+          </section>
+
+          <section class="view section wrap" data-view="explorations">
+            <div id="dsn" class="dsn"></div>
+          </section>
+
+          <section class="view section wrap" data-view="experience">
+            <div class="sec-head reveal">
+              <h2 data-i18n="xpH">Expérience</h2>
+              <p data-i18n="xpP">
+                Agences, freelance et projets d'envergure — du print au digital,
+                depuis 2022.
+              </p>
+            </div>
+            <div class="bio reveal" style="max-width: 860px; margin: 0 0 56px">
+              <span class="mono" data-i18n="bioK">À propos</span>
+              <p data-i18n="bioP1">
+                Formée à l'École supérieure des sciences et technologies du
+                design (ESSTED) à Tunis, j'ai fait mes armes en agence avant de
+                mener mes propres missions en freelance.
+              </p>
+              <p data-i18n="bioP2">
+                Depuis 2022, je dirige aussi
+                <b style="color: var(--ink); font-weight: 600">Designette</b>,
+                mon studio de créations personnalisées print/digital.
+              </p>
+              <a class="btn ghost" href="#explorations" style="margin-top: 10px"
+                ><span data-i18n="bioGo">Découvrir Designette</span>
+                <span class="arr">→</span></a
+              >
+            </div>
+            <div class="xp">
+              <div>
+                <div class="xp-label mono" data-i18n="xpK">
+                  Parcours professionnel
+                </div>
+                <div class="timeline" id="timeline">
+                  <div class="rail"><i id="railFill"></i></div>
+                </div>
+              </div>
+              <aside class="side">
+                <div class="block reveal">
+                  <h5 data-i18n="eduK">Formation</h5>
+                  <div class="edu">
+                    <span class="ico"
+                      ><svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M22 10 12 5 2 10l10 5 10-5z" />
+                        <path d="M6 12v5c3 2 9 2 12 0v-5" /></svg
+                    ></span>
+                    <div>
+                      <b data-i18n="eduT">Master · Digital Design</b
+                      ><span data-i18n="eduS"
+                        >ESSTED — École supérieure des sciences et technologies
+                        du design, Tunis</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="block reveal">
+                  <h5 data-i18n="toolsK">Outils maîtrisés</h5>
+                  <div class="kit" id="kit"></div>
+                </div>
+                <div class="block reveal">
+                  <h5 data-i18n="langsK">Langues</h5>
+                  <div class="langs" id="langs"></div>
+                </div>
+                <div class="block reveal">
+                  <h5>Skills</h5>
+                  <div class="skills">
+                    <span>Graphic design</span><span>UI/UX design</span
+                    ><span>Branding</span
+                    ><span data-i18n="skDig">Design digital</span>
+                  </div>
+                </div>
+                <div class="block reveal">
+                  <button class="btn ghost" type="button" data-cv>
+                    <span data-i18n="cvFull">Consulter mon CV complet</span>
+                    <span class="arr">↗</span>
+                  </button>
+                </div>
+              </aside>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="case" class="view"></div>
+
+      <div id="nf" class="view wrap nf">
+        <div>
+          <h1>404</h1>
+          <p data-i18n="nfP">Cette page s'est perdue entre deux calques.</p>
+          <a class="btn" href="#travaux"
+            ><span data-i18n="nfB">Retour aux projets</span>
+            <span class="arr">→</span></a
+          >
+        </div>
+      </div>
+    </main>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div>
+          <span class="mono">Contact</span>
+          <h2 style="margin-top: 16px" data-i18n="ctH">
+            Créons quelque chose de <em class="it">mémorable.</em>
+          </h2>
+          <div class="clist">
+            <div>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=yasmineboumaiza92@gmail.com"
+                target="_blank"
+                rel="noopener"
+                style="flex: 1"
+                >yasmineboumaiza92@gmail.com</a
+              ><button
+                class="copy"
+                data-copy="yasmineboumaiza92@gmail.com"
+                data-i18n="copy"
+              >
+                Copier
+              </button>
+            </div>
+            <div>
+              <a
+                href="https://wa.me/21692755973"
+                target="_blank"
+                rel="noopener"
+                style="flex: 1"
+                >+216 92 755 973</a
+              ><button
+                class="copy"
+                data-copy="+216 92 755 973"
+                data-i18n="copy"
+              >
+                Copier
+              </button>
+            </div>
+            <a
+              href="https://www.linkedin.com/in/yasmine-boumaiza-65b783282/"
+              target="_blank"
+              rel="noopener"
+              ><span>LinkedIn</span><small>yasmine-boumaiza ↗</small></a
+            >
+            <a
+              href="https://www.behance.net/yasmineboumaiza"
+              target="_blank"
+              rel="noopener"
+              ><span>Behance</span><small>yasmineboumaiza ↗</small></a
+            >
+            <div>
+              <span data-i18n="city">Tunis, Tunisie</span
+              ><small id="clock2">GMT+1</small>
+            </div>
+          </div>
+        </div>
+        <div>
+          <form class="cf" id="cf" novalidate>
+            <div class="row2">
+              <div>
+                <label for="fn" data-i18n="fName">Votre nom</label
+                ><input
+                  id="fn"
+                  autocomplete="name"
+                  data-i18n-ph="phName"
+                  placeholder="Nom & prénom"
+                />
+              </div>
+              <div>
+                <label for="fe" data-i18n="fMail">Votre e-mail</label
+                ><input
+                  id="fe"
+                  type="email"
+                  autocomplete="email"
+                  data-i18n-ph="phMail"
+                  placeholder="vous@exemple.com"
+                />
+              </div>
+            </div>
+            <div>
+              <label data-i18n="fType">Type de projet</label>
+              <div class="opts" id="opts"></div>
+            </div>
+            <div>
+              <label for="fm" data-i18n="fMsg">Votre message</label
+              ><textarea
+                id="fm"
+                data-i18n-ph="phMsg"
+                placeholder="Parlez-moi de votre projet, de vos délais, de vos envies…"
+              ></textarea>
+            </div>
+            <div class="err" id="err" role="alert"></div>
+            <button class="btn" type="submit">
+              <span data-i18n="fSend">Envoyer mon message</span>
+              <span class="arr">→</span>
+            </button>
+          </form>
+          <div class="sent" id="sent">
+            <div class="sbadge" id="sBadge"></div>
+            <ol class="ssteps" id="sSteps"></ol>
+            <h4 id="sHead" data-i18n="sH">Votre message est prêt à partir.</h4>
+            <p id="sPar" data-i18n="sP">
+              Gmail s'ouvre avec le message déjà rédigé et adressé à Yasmine :
+              il vous suffit d'appuyer sur « Envoyer ». Rien ne s'est ouvert ?
+              Utilisez le bouton ci-dessous.
+            </p>
+            <pre id="preview"></pre>
+            <div class="acts">
+              <a class="btn" id="mailto" href="#" data-i18n="sOpen"
+                >Envoyer par Gmail ↗</a
+              ><a
+                class="btn ghost"
+                id="wa"
+                href="#"
+                target="_blank"
+                rel="noopener"
+                data-i18n="sWa"
+                >Envoyer par WhatsApp ↗</a
+              ><button
+                class="btn ghost"
+                style="color: var(--bg); border-color: rgba(255, 255, 255, 0.3)"
+                id="copyMsg"
+                type="button"
+                data-i18n="sCopy"
+              >
+                Copier le message</button
+              ><button
+                class="btn ghost"
+                style="color: var(--bg); border-color: rgba(255, 255, 255, 0.3)"
+                id="reset"
+                type="button"
+                data-i18n="sEdit"
+              >
+                Modifier
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bigname wrap">
+        <span class="nm1">Yasmine</span><em class="it">Boumaiza</em>
+      </div>
+    </section>
+    <footer class="foot">
+      <div class="wrap">
+        <span>© 2026 Yasmine Boumaiza — Graphic & UI/UX Designer</span
+        ><span data-i18n="fMade">Conçu et développé à Tunis</span
+        ><a href="#top" data-scroll="top" data-i18n="fTop">Haut de page ↑</a>
+      </div>
+    </footer>
+
+    <div class="lb" id="lb" role="dialog" aria-modal="true">
+      <button class="x" id="lbX" aria-label="✕">✕</button>
+      <button class="pv" id="lbP" aria-label="←">←</button>
+      <div class="stage" id="lbS"></div>
+      <button class="nx" id="lbN" aria-label="→">→</button>
+      <div class="cap" id="lbC"></div>
     </div>
-  </div>
-
-  <div id="case" class="view"></div>
-
-  <div id="nf" class="view wrap nf"><div><h1>404</h1><p data-i18n="nfP">Cette page s'est perdue entre deux calques.</p><a class="btn" href="#travaux"><span data-i18n="nfB">Retour aux projets</span> <span class="arr">→</span></a></div></div>
-</main>
-
-<section class="contact" id="contact">
-  <div class="wrap">
-    <div>
-      <span class="mono">Contact</span>
-      <h2 style="margin-top:16px" data-i18n="ctH">Créons quelque chose de <em class="it">mémorable.</em></h2>
-      <div class="clist">
-        <div><a href="https://mail.google.com/mail/?view=cm&fs=1&to=yasmineboumaiza92@gmail.com" target="_blank" rel="noopener" style="flex:1">yasmineboumaiza92@gmail.com</a><button class="copy" data-copy="yasmineboumaiza92@gmail.com" data-i18n="copy">Copier</button></div>
-        <div><a href="https://wa.me/21692755973" target="_blank" rel="noopener" style="flex:1">+216 92 755 973</a><button class="copy" data-copy="+216 92 755 973" data-i18n="copy">Copier</button></div>
-        <a href="https://www.linkedin.com/in/yasmine-boumaiza-65b783282/" target="_blank" rel="noopener"><span>LinkedIn</span><small>yasmine-boumaiza ↗</small></a>
-        <a href="https://www.behance.net/yasmineboumaiza" target="_blank" rel="noopener"><span>Behance</span><small>yasmineboumaiza ↗</small></a>
-        <div><span data-i18n="city">Tunis, Tunisie</span><small id="clock2">GMT+1</small></div>
+    <div class="cvv" id="cvv" role="dialog" aria-modal="true">
+      <div class="cvv-bar">
+        <div>
+          <b id="cvTitle">CV — Yasmine Boumaiza</b
+          ><span id="cvSub">Graphic Designer | UI/UX Designer</span>
+        </div>
+        <div class="cvv-acts">
+          <button type="button" id="cvZoom" class="cvv-btn">＋ Zoom</button>
+          <a
+            class="cvv-btn"
+            id="cvPdf"
+            href="cv.pdf"
+            target="_blank"
+            rel="noopener"
+            data-i18n="cvPdf"
+            >Ouvrir le PDF ↗</a
+          >
+          <button
+            type="button"
+            id="cvClose"
+            class="cvv-btn round"
+            aria-label="✕"
+          >
+            ✕
+          </button>
+        </div>
+      </div>
+      <div class="cvv-body" id="cvBody"></div>
+      <div class="cvv-lang" id="cvLang" role="group" aria-label="Langue du CV">
+        <button type="button" data-l="fr" class="on">FR</button
+        ><button type="button" data-l="en">EN</button>
       </div>
     </div>
-    <div>
-      <form class="cf" id="cf" novalidate>
-        <div class="row2">
-          <div><label for="fn" data-i18n="fName">Votre nom</label><input id="fn" autocomplete="name" data-i18n-ph="phName" placeholder="Nom & prénom"></div>
-          <div><label for="fe" data-i18n="fMail">Votre e-mail</label><input id="fe" type="email" autocomplete="email" data-i18n-ph="phMail" placeholder="vous@exemple.com"></div>
-        </div>
-        <div><label data-i18n="fType">Type de projet</label>
-          <div class="opts" id="opts"></div>
-        </div>
-        <div><label for="fm" data-i18n="fMsg">Votre message</label><textarea id="fm" data-i18n-ph="phMsg" placeholder="Parlez-moi de votre projet, de vos délais, de vos envies…"></textarea></div>
-        <div class="err" id="err" role="alert"></div>
-        <button class="btn" type="submit"><span data-i18n="fSend">Envoyer mon message</span> <span class="arr">→</span></button>
-      </form>
-      <div class="sent" id="sent">
-        <div class="sbadge" id="sBadge"></div>
-        <ol class="ssteps" id="sSteps"></ol>
-        <h4 id="sHead" data-i18n="sH">Votre message est prêt à partir.</h4>
-        <p id="sPar" data-i18n="sP">Gmail s'ouvre avec le message déjà rédigé et adressé à Yasmine : il vous suffit d'appuyer sur « Envoyer ». Rien ne s'est ouvert ? Utilisez le bouton ci-dessous.</p>
-        <pre id="preview"></pre>
-        <div class="acts"><a class="btn" id="mailto" href="#" data-i18n="sOpen">Envoyer par Gmail ↗</a><a class="btn ghost" id="wa" href="#" target="_blank" rel="noopener" data-i18n="sWa">Envoyer par WhatsApp ↗</a><button class="btn ghost" style="color:var(--bg);border-color:rgba(255,255,255,.3)" id="copyMsg" type="button" data-i18n="sCopy">Copier le message</button><button class="btn ghost" style="color:var(--bg);border-color:rgba(255,255,255,.3)" id="reset" type="button" data-i18n="sEdit">Modifier</button></div>
-      </div>
-    </div>
-  </div>
-  <div class="bigname wrap"><span class="nm1">Yasmine</span><em class="it">Boumaiza</em></div>
-</section>
-<footer class="foot"><div class="wrap"><span>© 2026 Yasmine Boumaiza — Graphic & UI/UX Designer</span><span data-i18n="fMade">Conçu et développé à Tunis</span><a href="#top" data-scroll="top" data-i18n="fTop">Haut de page ↑</a></div></footer>
+    <div class="cursor" id="cursor">Voir</div>
+    <div class="toast" id="toast"></div>
 
-<div class="lb" id="lb" role="dialog" aria-modal="true">
-  <button class="x" id="lbX" aria-label="✕">✕</button>
-  <button class="pv" id="lbP" aria-label="←">←</button>
-  <div class="stage" id="lbS"></div>
-  <button class="nx" id="lbN" aria-label="→">→</button>
-  <div class="cap" id="lbC"></div>
-</div>
-<div class="cvv" id="cvv" role="dialog" aria-modal="true">
-  <div class="cvv-bar">
-    <div><b id="cvTitle">CV — Yasmine Boumaiza</b><span id="cvSub">Graphic Designer | UI/UX Designer</span></div>
-    <div class="cvv-acts">
-      <button type="button" id="cvZoom" class="cvv-btn">＋ Zoom</button>
-      <a class="cvv-btn" id="cvPdf" href="cv.pdf" target="_blank" rel="noopener" data-i18n="cvPdf">Ouvrir le PDF ↗</a>
-      <button type="button" id="cvClose" class="cvv-btn round" aria-label="✕">✕</button>
-    </div>
-  </div>
-  <div class="cvv-body" id="cvBody"></div>
-  <div class="cvv-lang" id="cvLang" role="group" aria-label="Langue du CV"><button type="button" data-l="fr" class="on">FR</button><button type="button" data-l="en">EN</button></div>
-</div>
-<div class="cursor" id="cursor">Voir</div>
-<div class="toast" id="toast"></div>
-
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
