@@ -1251,7 +1251,7 @@ function route(keep){
   $$("[data-view]").forEach(v=>v.classList.toggle("on",v.dataset.view===h));
   setTab(h);
   if(!firstRoute&&!keep){const y=$("#tabbar").getBoundingClientRect().top+scrollY-$("header.top").offsetHeight;window.scrollTo({top:Math.max(0,y),behavior:"smooth"})}
-  document.title=`${tr(...TAB_T[h])} — Yasmine Boumaiza`;
+  document.title="Yasmine Boumaiza — Portfolio";
  }else if(h.startsWith("projet-")&&byId(h.slice(7))){
   const p=byId(h.slice(7));$("#home").style.display="none";$("#nf").classList.remove("on");renderCase(p);$("#case").classList.add("on");if(!keep)window.scrollTo(0,0);document.title=`${p.title} — Yasmine Boumaiza`;
  }else if(h==="contact"||h==="top"){}
